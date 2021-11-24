@@ -10,6 +10,7 @@ class Reys(models.Model):
     qaysi_shaharga = models.CharField(max_length=100)
     uchish_sanasi = models.DateField()
     uchish_vaqti = models.TimeField()
+    rasmi = models.ImageField(null=True)
 
 
     def __str__(self) -> str:
